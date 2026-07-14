@@ -80,5 +80,4 @@ with Live(generate_frame(grid, status_message), refresh_per_second=10) as live:
                 kola_position = (below_row, kola_col - 1)
                 grid[below_row][kola_col - 1] = '🥤'
 
-        # Update the live display with the new grid and status
         live.update(generate_frame(grid, status_message))
