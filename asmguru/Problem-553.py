@@ -6,31 +6,20 @@
 
 
 
-# Sultan Suleiman was so rich that legends spread far and wide about his treasures. 
-# This problem is going to be about one of those legends.
-# One of the sultan's favorite treasures was a string of finest pearls that he kept
-#  on the bedside table. He never touched the string as it had too many pearls on it to wear.
-#  The sultan's cunning servant decided to take advantage of this fact and "borrow" a few pearls. 
-# The string consisted of n pearls, m of them hung down from the bedside table. 
-# In this problem we will consider the pearls indexed by integers from 1 to n, 
-# starting from the end that lies on the table, that is, pearls 1, 2,..., 
-# n-m were located on the table and pearls n-m+1, n-m+2,..., n hung down from it.
-# Sample for n=10 and m=3.
-# The servant decided to take exactly one pearl from one end of the string every day. 
-# But he had to be perfectly careful as every evening the sultan enjoyed looking at the string and counting the number 
-# of the hanging pearls. That's why after the servant took a pearl from the hanging end, he had to pull the string one 
-# pearl lower so that the number of the hanging pearls equalled m again. Certainly, if the servant took a pearl from 
-# the lying end, he had to leave the hanging part as it was.
+# Sultan Suleiman was so rich that legends spread far and wide about his treasures. This problem is going to be about one of those legends.
+# One of the sultan's favorite treasures was a string of finest pearls that he kept on the bedside table. He never touched the string as it had too many pearls on it to wear.
+# The sultan's cunning servant decided to take advantage of this fact and "borrow" a few pearls. The string consisted of n pearls, m of them hung down from the bedside table. 
+# In this problem we will consider the pearls indexed by integers from 1 to n, starting from the end that lies on the table, that is, pearls 1, 2,..., n-m were located on the 
+# table and pearls n-m+1, n-m+2,..., n hung down from it. Sample for n=10 and m=3. The servant decided to take exactly one pearl from one end of the string every day. 
+# But he had to be perfectly careful as every evening the sultan enjoyed looking at the string and counting the number of the hanging pearls.
+# That's why after the servant took a pearl from the hanging end, he had to pull the string one pearl lower so that the number of the hanging pearls equalled m again. 
+# Certainly, if the servant took a pearl from the lying end, he had to leave the hanging part as it was.
 
-# Each pearl has some mass, and the string may fall down if the hanging part is too heavy. Of course, the servant must 
-# avoid that. The string must remain motionless after every action of the servant.
-# More formally, assume that the i-th pearl in the string has mass of wi. Also let's say that the total mass of the 
-# hanging m pearls equals Wh, and the total mass of the pearls on the table equals Wt. Then the hanging part pulls the whole string down,
-# if Wh > k · Wt, where k is the coefficient of friction of the pearls against the table. The coefficient k is the same for all pearls.
-# The pearls on the string had not only different masses but also different prices: the i-th pearl costs ci dinars.
-# The servant's aim was to steal the pearls for the maximum sum and avoid the sultan's suspicions. His plan didn't come out very 
-# well: he made a mistake somewhere in his calculations, his theft was discovered and he was executed.
-# Nobody is going to execute you, of course, so we suggest you to solve the problem that proved to be too hard for the sultan's servant.
+# Each pearl has some mass, and the string may fall down if the hanging part is too heavy. Of course, the servant must avoid that. The string must remain motionless after every action of the servant.
+# More formally, assume that the i-th pearl in the string has mass of wi. Also let's say that the total mass of the hanging m pearls equals Wh, and the total mass of the pearls on the table equals Wt.
+# Then the hanging part pulls the whole string down, if Wh > k · Wt, where k is the coefficient of friction of the pearls against the table. The coefficient k is the same for all pearls.
+# The pearls on the string had not only different masses but also different prices: the i-th pearl costs ci dinars. The servant's aim was to steal the pearls for the maximum sum and avoid the sultan's suspicions. 
+# His plan didn't come out very well: he made a mistake somewhere in his calculations, his theft was discovered and he was executed.Nobody is going to execute you, of course, so we suggest you to solve the problem that proved to be too hard for the sultan's servant.
 
 # Input
 # The first line contains three integers n, m and k (2 ≤ n ≤ 2 · 10^5, 1 ≤ m < n, 1 ≤ k ≤ 10). Each of the following n lines contains 
