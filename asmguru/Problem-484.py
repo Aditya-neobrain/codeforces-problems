@@ -13,7 +13,7 @@ n, m = 20, 15
 grid = [[random.choice(cell_options) for _ in range(m)] for _ in range(n-1)]
 grid.append(['..' for _ in range(m)])
 
-kola_position = (0, random.randint(0, m-1))
+kola_position = (random.randint(0,n-2), random.randint(0, m-1))
 grid[kola_position[0]][kola_position[1]] = '🥤'
 
 def generate_frame(grid, status=""):
