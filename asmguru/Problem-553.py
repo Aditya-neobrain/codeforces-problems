@@ -41,7 +41,6 @@ import random
 total_pearl = random.randint(2,20)
 hanging_pearl = random.randint(1,total_pearl-1)
 friction_coefficient = random.randint(1,10)
-
 mass_price_list = []
 
 for i in range(total_pearl):
@@ -60,9 +59,6 @@ def steal(n, m, k, pearls):
     
     table_mass = k * sum(w for w, c in table_pearls)
     hanging_mass = sum(w for w, c in hanging_pearls)
-
-
-    print(f"Initial table mass: {table_mass}, Initial hanging mass: {hanging_mass}")
 
     steal_sequence = []
     stolen_pearls = 0
