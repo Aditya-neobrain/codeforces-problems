@@ -3,7 +3,7 @@
 
 import random
 
-total_pearl = random.randint(2,20)
+total_pearl = random.randint(2,1000)
 hanging_pearl = random.randint(1,total_pearl-1)
 friction_coefficient = random.randint(1,10)
 mass_price_list = []
