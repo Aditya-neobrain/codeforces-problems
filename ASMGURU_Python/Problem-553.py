@@ -1,5 +1,5 @@
 # Problem 553: Sultan's Pearls
-# Problem url: https://codeforces.com/problemsets/acmsguru/problem/99999/553
+# Problem URL: https://codeforces.com/problemsets/acmsguru/problem/99999/553
 
 import random
 
